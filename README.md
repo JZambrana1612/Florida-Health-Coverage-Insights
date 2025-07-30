@@ -91,18 +91,21 @@ The `sql/` directory contains modular scripts used to build and query the projec
 ```
 health-insurance-insights/
 ├── data/
-│   ├── sahie_2019_sampled_FL.csv
-│   ├── sahie_2020_sampled_FL.csv
-│   ├── sahie_2021_sampled_FL.csv
-│   ├── sahie_2022_sampled_FL.csv
-│   ├── hi05_acs.xlsx
-│   ├── hi10_acs.xlsx
-│   ├── hi11_acs.xlsx
-│   ├── hi12_acs.xlsx
-│   ├── hi15_acs.xlsx
-│   ├── hi13_cms_medicare_acstable1.xlsx
-│   ├── hi14_cms_medicare_acstable2.xlsx
-│   ├── insurance.csv
+│   ├── cleaned/
+│   │   ├── sahie_2019_sampled_FL.csv
+│   │   ├── sahie_2020_sampled_FL.csv
+│   │   ├── sahie_2021_sampled_FL.csv
+│   │   └── sahie_2022_sampled_FL.csv
+│   ├── raw/
+│   │   ├── hi05_acs.xlsx
+│   │   ├── hi10_acs.xlsx
+│   │   ├── hi11_acs.xlsx
+│   │   ├── hi12_acs.xlsx
+│   │   ├── hi15_acs.xlsx
+│   │   ├── hi13_cms_medicare_acstable1.xlsx
+│   │   ├── hi14_cms_medicare_acstable2.xlsx
+│   │   ├── insurance.csv
+│   │   └──sahie_data_link.md
 ├── sql/
 │   ├── create_tables.sql
 │   ├── clean_data.sql
