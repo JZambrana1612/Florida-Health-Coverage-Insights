@@ -61,7 +61,7 @@ This project leverages several U.S. Census and CMS datasets, along with a cleane
 
 - **CMS HI13 / HI14** – Medicare add‑on tables breaking down Medicare participation and dual‑eligibility by state.
 
-- **Insurance CSV** – A synthetic `insurance.csv` sample file included for demonstration of data loading and transformation.
+- **Insurance CSV** –  Insurance charges are given against the following attributes of the insured: Age, Sex, BMI, Number of Children, Smoker and Region
 
 **Years Used:** 2018–2022 for SAHIE trends; ACS 2022/2023 for current demographic context.
 
@@ -123,10 +123,10 @@ health-insurance-insights/
 - **Python (optional)** – Preprocessing, sampling and z‑score calculation.
 
 ## Data Sources
-- **SAHIE 2018–2022** – Download from the U.S. Census Bureau SAHIE page.
-- **ACS HI Tables (HI05–HI15)** – Publicly available on the Census Health Insurance Tables.
-- **CMS Medicare Add‑On Tables (HI13/HI14)** – Available via CMS on Census.gov.
-- **Statewide uninsured rate reference** – United Health Foundation’s America’s Health Rankings 2023 report.
+- **[SAHIE 2018–2022](https://www.census.gov/data/datasets/time-series/demo/sahie/estimates-acs.html)** – Download from the U.S. Census Bureau SAHIE page.
+- **[ACS HI Tables (HI05–HI15)](https://www.census.gov/data/tables/time-series/demo/health-insurance/acs-hi.html)** – Publicly available on the Census Health Insurance Tables.
+- **[insurance.csv](https://www.kaggle.com/datasets/teertha/ushealthinsurancedataset?resource=download)** – Insurance Premium Charges in US with important details for risk underwriting.
+- **[Statewide uninsured rate reference](https://www.americashealthrankings.org/explore/measures/HealthInsurance)** – United Health Foundation’s America’s Health Rankings 2023 report.
 
 ## About the Analyst
 **Jeremy Gutierrez** – Data Analyst focused on healthcare and market strategy using SQL, Tableau and AI‑augmented workflows.  
