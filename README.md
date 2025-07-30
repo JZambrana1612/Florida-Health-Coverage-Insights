@@ -1,116 +1,133 @@
-
 # Florida Health Coverage Insights: Market Gaps & Medicare Expansion
+**Identifying high‑priority counties and outreach strategies using ACS, SAHIE and CMS data**
 
-### Identifying high-priority counties and outreach strategies using ACS, SAHIE, and CMS data
-
-This project analyzes U.S. Census Bureau and CMS Medicare data to pinpoint Florida counties with the highest unmet healthcare coverage needs. Using SQL and Tableau, we identify strategic gaps, model regional risk, and deliver actionable insights for product, marketing, and enrollment teams — aligning with the responsibilities of a Business Intelligence Analyst at HealthPlanOne.
-
----
+This project analyzes U.S. Census Bureau and CMS Medicare data to pinpoint Florida counties with the highest unmet healthcare coverage needs. Using SQL and Tableau, we identify strategic gaps, model regional risk and deliver actionable insights for product, marketing and enrollment teams — aligning with the responsibilities of a Business Intelligence Analyst at HealthPlanOne.
 
 ## Executive Summary
+This analysis answers five high‑impact, stakeholder‑aligned questions for decision‑makers in healthcare analytics:
 
-This analysis answers five high-impact, stakeholder-aligned questions for decision-makers in healthcare analytics:
+**1. Where are the most underinsured counties in Florida — and how large are those populations?**  
+We identify counties with the highest uninsured rates and quantify their market size to guide outreach targeting.
 
-1. **Where are the most underinsured counties in Florida — and how large are those populations?** We identify counties with the highest uninsured rates and quantify their market size to guide outreach targeting.
-2. **How have coverage rates changed since the pandemic?** We compare 2019 to 2022 SAHIE data to assess regional recovery and highlight counties where the uninsured gap is widening.
-3. **Which counties show a misalignment between Medicare coverage and uninsured need?** By cross-analyzing Medicare share (HI13/HI14) and county-level uninsured rates, we flag regions for dual-eligible expansion.
-4. **Which age and income segments remain least insured across Florida?** ACS tables (HI05, HI12) reveal demographic coverage gaps that could guide model recalibration or LLM outreach customization.
-5. **Where should enrollment outreach be prioritized based on uninsured % and population risk?** We build a weighted “Outreach Priority Index” using county-level z-scores on uninsured % and population size.
+**2. How have coverage rates changed since the pandemic?**  
+We compare 2019 to 2022 SAHIE data to assess regional recovery and highlight counties where the uninsured gap is widening.
 
-### Dashboard Overview
+**3. Which counties show a misalignment between Medicare coverage and uninsured need?**  
+By cross‑analyzing Medicare share (HI13/HI14) and county‑level uninsured rates, we flag regions for dual‑eligible expansion.
 
+**4. Which age and income segments remain least insured across Florida?**  
+ACS tables (HI05, HI10, HI11, HI12, HI15) reveal demographic coverage gaps that could guide model recalibration or LLM outreach customization.
+
+**5. Where should enrollment outreach be prioritized based on uninsured % and population risk?**  
+We build a weighted “Outreach Priority Index” using county‑level z‑scores on uninsured % and population size.
+
+## Dashboard Overview
 The Tableau dashboard will include:
 
-- **2022 County Heatmap:** uninsured rates and population overlays
-- **2019 vs. 2022 Comparison:** coverage rate changes post-pandemic
-- **Targeting Index:** weighted ranking of high-risk counties
-- **Medicare Context Cards:** income and dual-eligibility metrics (HI13/HI14)
-- **Demographic Gaps:** state-level charts for coverage by age and poverty
+- **2022 County Heatmap:** uninsured rates and population overlays.
+- **2019 vs. 2022 Comparison:** coverage rate changes post‑pandemic.
+- **Targeting Index:** weighted ranking of high‑risk counties.
+- **Medicare Context Cards:** income and dual‑eligibility metrics (HI13/HI14).
+- **Demographic Gaps:** state‑level charts for coverage by age and poverty.
 
-> 🔗 *[Dashboard link placeholder — coming soon]*
-
----
+🔗 [Dashboard link placeholder — coming soon]
 
 ## Actionable Recommendations
+The cleaned Florida datasets reveal clear patterns that inform outreach and product strategy. Key recommendations are:
 
-- **Focus outreach on high-population counties with growing coverage gaps.** Counties like [Example County] show rising uninsured rates and large outreach potential.
-- **Recalibrate ML targeting models using updated uninsured distributions by income and age.** Integrate HI12 and HI05 tables to fine-tune targeting logic.
-- **Align Medicare expansion strategies with underserved regions.** Counties with high dual-eligible potential but low coverage rates offer entry points for new plans or partnerships.
-- **Build LLM prompt templates that reflect demographic risk.** Use coverage by poverty and age to tailor message tone and format for higher engagement.
-- **Monitor post-pandemic insurance trends.** Flag counties where uninsured rates remain elevated despite recovery elsewhere.
+- **Focus outreach on counties with both high uninsured percentages and large uninsured populations.**  
+In our sample, counties such as Manatee, Seminole, Franklin, Glades, Palm Beach and Pasco exhibit the highest uninsured rates or the biggest increases since 2019. Targeting these areas can maximize enrollment impact.
 
----
+- **Recalibrate ML targeting models using updated uninsured distributions by income and age.**  
+Integrate HI05, HI10, HI11 and HI12 tables to fine‑tune model features for age and poverty strata.
+
+- **Align Medicare expansion strategies with underserved regions.**  
+Cross‑analysis of SAHIE and HI13/HI14 data highlights counties where dual‑eligible share is low relative to the uninsured burden; these counties are candidates for new Medicare Advantage plans or dual‑eligible outreach.
+
+- **Build messaging and LLM prompt templates that reflect demographic risk.**  
+Use coverage by poverty and age to tailor tone and language for higher engagement, especially among low‑income adults and seniors.
+
+- **Monitor post‑pandemic insurance trends.**  
+Track counties where uninsured rates remain elevated or are rising despite statewide improvements. Seminole County, for example, saw an increase of more than 18 percentage points between 2019 and 2022, signalling persistent gaps.
 
 ## Deep Dive: Analytical Approach
 
 ### Dataset Overview
+This project leverages several U.S. Census and CMS datasets, along with a cleaned subset of Florida county data:
 
-This project uses data from multiple U.S. Census programs and CMS tables:
+- **SAHIE (Small Area Health Insurance Estimates)** – County‑level uninsured counts and percentages by age, sex and income. Because the raw files are very large, this repository includes sampled Florida‑only CSVs for 2018–2022 (e.g., `sahie_2019_sampled_FL.csv`). The full datasets can be downloaded from the Census site.
 
-- **SAHIE** (Small Area Health Insurance Estimates): County-level uninsured % by age, sex, income.
-- **ACS HI05/HI12/HI13/HI14**: State-level coverage breakdowns by age, poverty, and Medicare participation.
-- **Years Used:** 2019, 2021, 2022 (for trends); ACS 2022/2023 (for current context)
+- **ACS HI05 / HI10 / HI11 / HI12 / HI15** – State‑level health‑insurance tables providing coverage by age group, sex and income ratio.
+
+- **CMS HI13 / HI14** – Medicare add‑on tables breaking down Medicare participation and dual‑eligibility by state.
+
+- **Insurance CSV** – A synthetic `insurance.csv` sample file included for demonstration of data loading and transformation.
+
+**Years Used:** 2018–2022 for SAHIE trends; ACS 2022/2023 for current demographic context.
 
 ### Analytical Steps
+- **Data Cleaning:** Convert Excel and CSV files into long format, clean column names, and import them into MySQL staging tables. For SAHIE, aggregate the Florida samples by county and year to compute total uninsured numbers (`NUI`) and population at risk (`NIPR`), then derive the uninsured percentage (`PCTUI`).
 
-1. **Data Cleaning:** Excel files were formatted into long format (per year, per dimension) and imported into MySQL staging tables.
-2. **Dimension Setup:** A Florida county FIPS mapping table supports joins and name consistency across datasets.
-3. **County-Level Views:** Created using `CREATE VIEW` statements to isolate 2022 data and compute differences from 2019.
-4. **Index Modeling:** Standardized scores (z-scores) for uninsured % and population were blended into a composite Outreach Priority Index.
-5. **Tableau Integration:** Core views were exported to CSV and linked to Tableau dashboards with filters by year, age, and income.
+- **Dimension Setup:** Create a county FIPS mapping table to support joins and ensure name consistency across datasets.
 
----
+- **County‑Level Views:** Use `CREATE VIEW` statements (and supporting SQL scripts) to isolate 2022 data and compute year‑over‑year differences from 2019.
 
-## Scripts
+- **Index Modeling:** Standardize scores (z‑scores) for uninsured % and population and blend them into a composite Outreach Priority Index.
 
-This repository includes SQL scripts to define schemas, views, and answer all five business questions.
+- **Tableau Integration:** Export core views to CSV or connect Tableau directly to MySQL, then build interactive dashboards with filters by year, age and income.
 
-### SQL Scripts
+## SQL Scripts
+The `sql/` directory contains modular scripts used to build and query the project database:
 
-- **`acs_sahie_project.sql`** – Full SQL workflow: DDL + core queries
-- **`q1_top_uninsured_counties.sql`** – Returns counties with highest uninsured % in 2022
-- **`q2_trend_uninsured_change.sql`** – Measures percent-point change from 2019 to 2022
-- **`q3_medicare_vs_uninsured.sql`** – Aligns SAHIE and HI13/HI14 data
-- **`q4_demographic_gaps.sql`** – Analyzes uninsured % by age and income
-- **`q5_priority_index.sql`** – Ranks counties by weighted priority score
-
----
+- `create_tables.sql` – Schema definitions
+- `clean_data.sql` – Data-loading and aggregation queries
+- `q1_top_uninsured_counties.sql` – Answers Question 1
+- `q2_trend_uninsured_change.sql` – Answers Question 2
+- `q3_medicare_vs_uninsured.sql` – Answers Question 3
+- `q4_demographic_gaps.sql` – Answers Question 4
+- `q5_priority_index.sql` – Answers Question 5
 
 ## Repository Structure
-
 ```
 health-insurance-insights/
 ├── data/
-│   ├── sahie_2019.xlsx / sahie_2022.xlsx     # raw county-level data
-│   ├── hi05_acs.xlsx / hi12_acs.xlsx         # ACS age/income files
-│   ├── hi13_cms.xlsx / hi14_cms.xlsx         # Medicare participation
+│   ├── sahie_2019_sampled_FL.csv
+│   ├── sahie_2020_sampled_FL.csv
+│   ├── sahie_2021_sampled_FL.csv
+│   ├── sahie_2022_sampled_FL.csv
+│   ├── hi05_acs.xlsx
+│   ├── hi10_acs.xlsx
+│   ├── hi11_acs.xlsx
+│   ├── hi12_acs.xlsx
+│   ├── hi15_acs.xlsx
+│   ├── hi13_cms_medicare_acstable1.xlsx
+│   ├── hi14_cms_medicare_acstable2.xlsx
+│   ├── insurance.csv
 ├── sql/
-│   └── acs_sahie_project.sql                 # full pipeline SQL
+│   ├── create_tables.sql
+│   ├── clean_data.sql
+│   ├── q1_top_uninsured_counties.sql
+│   ├── q2_trend_uninsured_change.sql
+│   ├── q3_medicare_vs_uninsured.sql
+│   ├── q4_demographic_gaps.sql
+│   ├── q5_priority_index.sql
 ├── images/
-│   └── dashboard_preview.png                 # Tableau overview (placeholder)
-├── README.md                                 # project summary
+│   └── dashboard_preview.png
+├── README.md
 ```
 
----
-
 ## Tools Used
-
-- **SQL (MySQL):** database structure, aggregation, modeling
-- **Excel / Power Query:** staging and reshaping ACS/SAHIE source files
-- **Tableau Public:** dynamic dashboards with filters and KPIs
-- **Python (optional):** preprocessing or z-score calculation if needed
-
----
+- **SQL (MySQL)** – Database structure, aggregation and modeling.
+- **Excel / Power Query** – Staging and reshaping ACS/SAHIE source files.
+- **Tableau Public** – Dynamic dashboards with filters and KPIs.
+- **Python (optional)** – Preprocessing, sampling and z‑score calculation.
 
 ## Data Sources
-
-- **SAHIE 2019/2021/2022:** [Census SAHIE Program](https://www.census.gov/programs-surveys/sahie.html)
-- **ACS HI Tables (HI05–HI15):** [Census Health Insurance Tables](https://www.census.gov/data/tables/time-series/demo/health-insurance/acs-hi.html)
-- **CMS Medicare Breakdowns:** (in ACS Medicare Add-On Tables)
-
----
+- **SAHIE 2018–2022** – Download from the U.S. Census Bureau SAHIE page.
+- **ACS HI Tables (HI05–HI15)** – Publicly available on the Census Health Insurance Tables.
+- **CMS Medicare Add‑On Tables (HI13/HI14)** – Available via CMS on Census.gov.
+- **Statewide uninsured rate reference** – United Health Foundation’s America’s Health Rankings 2023 report.
 
 ## About the Analyst
-
-Jeremy Gutierrez – Data Analyst focused on healthcare and market strategy using SQL, Tableau, and AI-augmented workflows.  
-Let’s connect: [LinkedIn](https://www.linkedin.com/in/jeremy-gutierrez-4502391bb/) | [GitHub](https://github.com/JZambrana1612)
+**Jeremy Gutierrez** – Data Analyst focused on healthcare and market strategy using SQL, Tableau and AI‑augmented workflows.  
+Let’s connect: [LinkedIn](https://www.linkedin.com) | [GitHub](https://www.github.com)
