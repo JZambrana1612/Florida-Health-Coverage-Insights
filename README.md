@@ -1,7 +1,7 @@
 # Florida Health Coverage Insights: Market Gaps & Medicare Expansion
 **Identifying high‑priority counties and outreach strategies using ACS, SAHIE and CMS data**
 
-This project analyzes U.S. Census Bureau and CMS Medicare data to pinpoint Florida counties with the highest unmet healthcare coverage needs. Using SQL and Tableau, we identify strategic gaps, model regional risk and deliver actionable insights for product, marketing and enrollment teams — aligning with the responsibilities of a Business Intelligence Analyst at HealthPlanOne.
+This project analyzes U.S. Census Bureau and CMS Medicare data to pinpoint Florida counties with the highest unmet healthcare coverage needs. Using SQL and Tableau, we identify strategic gaps, model regional risk and deliver actionable insights for product, marketing and enrollment teams.
 
 ## Executive Summary
 This analysis answers five high‑impact, stakeholder‑aligned questions for decision‑makers in healthcare analytics:
