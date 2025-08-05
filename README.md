@@ -43,14 +43,14 @@ Integrate HI05, HI10, HI11 and HI12 tables to fine‑tune model features for age
 
 - **Align Medicare expansion strategies with underserved regions.**  
 Cross‑analysis of SAHIE and HI13/HI14 data highlights counties where dual‑eligible share is low relative to the uninsured burden; these counties are candidates for new Medicare Advantage plans or dual‑eligible outreach.
-![Low-Income Insurance Eligibility by County](images/low-income_insurance_eligibility_by_county)
+![Low-Income Insurance Eligibility by County](images/low-income_insurance_eligibility_by_county.png)
 - **Build messaging and LLM prompt templates that reflect demographic risk.**  
 Use coverage by poverty and age to tailor tone and language for higher engagement, especially among low‑income adults and seniors.
-![Distribution by Federal Poverty Level (2013)](images/distribution_by_FPL_2013)
-![Distribution by Federal Poverty Level (2014)](images/distribution_by_FPL_2014) 
+![Distribution by Federal Poverty Level (2013)](images/distribution_by_FPL_2013.png)
+![Distribution by Federal Poverty Level (2014)](images/distribution_by_FPL_2014.png) 
 - **Monitor post‑pandemic insurance trends.**  
 Track counties where uninsured rates remain elevated or are rising despite statewide improvements. Seminole County, for example, saw an increase of more than 18 percentage points between 2019 and 2022, signalling persistent gaps.
-![Uninsured Rate Trends](images/uninsured_rate_trends)
+![Uninsured Rate Trends](images/uninsured_rate_trends.png)
 ## Deep Dive: Analytical Approach
 
 ### Dataset Overview
@@ -127,7 +127,7 @@ health-insurance-insights/
 │   ├── uninsured_rate_by_county.png
 │   └── uninsured_rate_trends.png
 ├── README.md
-├── LICENSE
+└── LICENSE
 ```
 
 ## Tools Used
