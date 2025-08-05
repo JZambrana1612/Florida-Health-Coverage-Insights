@@ -28,7 +28,7 @@ The Tableau dashboard features:
 - **Top 5 Counties Trend Chart:** Shows uninsured rate change (2019–2022).
 - **FPL Distribution Bar Charts:** State vs. Florida comparisons for 2013 and 2014.
 - **Interactive Filters:** To adjust by income group, region, and year.
-
+> 🔗 [View the live dashboard on Tableau](https://us-east-1.online.tableau.com/t/zambrana1612-96d58e28ce/views/FloridaHealthInsuranceCoverageEligibilityAnalysis20132022/Dashboard1?:origin=card_share_link&:embed=n) 
 
 ## Actionable Recommendations
 The cleaned Florida datasets reveal clear patterns that inform outreach and product strategy. Key recommendations are:
@@ -45,12 +45,13 @@ Integrate HI05, HI10, HI11 and HI12 tables to fine‑tune model features for age
 ![Low-Income Insurance Eligibility by County](images/low-income_insurance_eligibility_by_county.png)
 
 - **Leverage income-based outreach.** HI13 and HI14 show that many eligible individuals fall below 135% or 150% FPL.
-![Distribution by Federal Poverty Level (2013)](images/distribution_by_FPL_.png)
-![Distribution by Federal Poverty Level (2014)](images/distribution_by_FPL_.png) 
+
+![Distribution by Federal Poverty Level (2013)](images/distribution_by_FPL_2013.png)
+![Distribution by Federal Poverty Level (2014)](images/distribution_by_FPL_2014.png) 
 - **Monitor post‑pandemic insurance trends.**  
 Track counties where uninsured rates remain elevated or are rising despite statewide improvements. Seminole County, for example, saw an increase of more than 18 percentage points between 2019 and 2022, signalling persistent gaps.
 
-- **Target high-risk counties.** Brevard, Palm Beach, and Pasco show high uninsured averages or sharp increases post-COVID.
+- **Target high-risk counties.** Alachua, Baker, Bay, Bradford, and Brevard show high uninsured averages or sharp increases post-COVID.
 ![Uninsured Rate Trends](images/uninsured_rate_trends.png)
 ## Deep Dive: Analytical Approach
 
@@ -120,8 +121,8 @@ health-insurance-insights/
 │   ├── q5_priority_index.sql
 ├── images/
 │   ├── dashboard_preview.png
-│   ├── distribution_by_FPL_2013.png
-│   ├── distribution_by_FPL_2014.png
+│   ├── distribution_FPL_2013.png
+│   ├── distribution_FPL_2014.png
 │   ├── low-income_insurance_eligibility_by_county.png
 │   ├── uninsured_rate_by_county.png
 │   └── uninsured_rate_trends.png
