@@ -30,7 +30,6 @@ The Tableau dashboard will include:
 - **Medicare Context Cards:** income and dual‑eligibility metrics (HI13/HI14).
 - **Demographic Gaps:** state‑level charts for coverage by age and poverty.
 
-🔗 [Dashboard link placeholder — coming soon]
 
 ## Actionable Recommendations
 The cleaned Florida datasets reveal clear patterns that inform outreach and product strategy. Key recommendations are:
