@@ -45,8 +45,8 @@ Integrate HI05, HI10, HI11 and HI12 tables to fine‑tune model features for age
 ![Low-Income Insurance Eligibility by County](images/low-income_insurance_eligibility_by_county.png)
 
 - **Leverage income-based outreach.** HI13 and HI14 show that many eligible individuals fall below 135% or 150% FPL.
-![Distribution by Federal Poverty Level (2013)](images/distribution_by_FPL_2013.png)
-![Distribution by Federal Poverty Level (2014)](images/distribution_by_FPL_2014.png) 
+![Distribution by Federal Poverty Level (2013)](images/distribution_by_FPL_.png)
+![Distribution by Federal Poverty Level (2014)](images/distribution_by_FPL_.png) 
 - **Monitor post‑pandemic insurance trends.**  
 Track counties where uninsured rates remain elevated or are rising despite statewide improvements. Seminole County, for example, saw an increase of more than 18 percentage points between 2019 and 2022, signalling persistent gaps.
 
