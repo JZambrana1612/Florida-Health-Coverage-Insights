@@ -1,0 +1,55 @@
+State,Total Medicare Beneficiaries,Below 100% FPL,100%–119% FPL,120%–134% FPL,135%–174% FPL,Above 174% FPL
+United States,50030,4370,1336,1120,3385,39820
+Alabama,840,83,30,24,72,630
+Alaska,84,4,1,2,5,72
+Arizona,1225,111,28,27,76,984
+Arkansas,493,51,21,17,44,361
+California,4786,419,111,88,279,3889
+Colorado,807,57,18,15,42,676
+Connecticut,547,36,8,7,28,468
+Delaware,195,13,4,3,8,167
+District of Columbia,57,6,1,1,1,49
+Florida,4121,382,107,93,297,3241
+Georgia,1445,139,49,36,108,1113
+Hawaii,256,18,5,4,13,215
+Idaho,311,26,8,7,21,249
+Illinois,1875,157,48,34,119,1517
+Indiana,1041,83,26,27,82,824
+Iowa,517,40,11,12,36,418
+Kansas,462,36,13,12,35,366
+Kentucky,720,77,34,24,60,525
+Louisiana,660,68,23,21,55,493
+Maine,268,19,7,6,19,218
+Maryland,885,71,18,12,46,738
+Massachusetts,978,68,20,13,53,824
+Michigan,1680,132,42,37,114,1354
+Minnesota,907,73,22,17,54,741
+Mississippi,439,53,19,16,40,312
+Missouri,1050,92,30,25,78,826
+Montana,207,16,6,5,17,164
+Nebraska,296,25,9,6,21,236
+Nevada,482,43,12,12,30,386
+New Hampshire,268,19,7,5,16,220
+New Jersey,1374,110,31,23,75,1135
+New Mexico,351,34,12,9,26,270
+New York,2746,239,62,52,166,2228
+North Carolina,1697,150,51,43,137,1315
+North Dakota,117,10,2,3,8,94
+Ohio,1951,170,54,45,148,1534
+Oklahoma,626,66,22,19,49,469
+Oregon,700,58,17,15,47,563
+Pennsylvania,2214,177,61,54,159,1763
+Rhode Island,172,15,4,4,12,138
+South Carolina,934,86,27,23,72,727
+South Dakota,144,11,4,5,9,116
+Tennessee,1120,116,32,32,86,854
+Texas,3571,360,112,93,247,2758
+Utah,365,25,7,6,21,305
+Vermont,123,8,3,3,7,102
+Virginia,1356,114,34,28,82,1097
+Washington,1141,86,23,21,65,946
+West Virginia,344,34,13,11,29,256
+Wisconsin,984,78,26,21,67,792
+Wyoming,103,7,3,2,8,82
+Z Rounds to zero.,,,,,,
+Data in this table represent the poverty universe. For more information on poverty and the poverty universe see: <https://www.census.gov/topics/income-poverty/poverty/guidance/poverty-measures.html>.,,,,,,

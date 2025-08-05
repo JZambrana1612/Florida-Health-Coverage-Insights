@@ -1,0 +1,432 @@
+state_name,grouping_variable,insured_percent,uninsured_percent,dimension_type,year
+,,,,age,2023
+,,,,age,2023
+,,,,age,2023
+,,,,age,2023
+United States,All people,92.1,7.900000000000006,age,2023
+United States,Under 65 years,90.6,9.400000000000006,age,2023
+United States,Under 19 years,94.6,5.400000000000006,age,2023
+United States,19 - 64 years,89.0,11.0,age,2023
+United States,65 years and over,99.2,0.7999999999999972,age,2023
+Alabama,All people,91.5,8.5,age,2023
+Alabama,Under 65 years,89.7,10.299999999999997,age,2023
+Alabama,Under 19 years,96.1,3.9000000000000057,age,2023
+Alabama,19 - 64 years,87.1,12.900000000000006,age,2023
+Alabama,65 years and over,99.6,0.4000000000000057,age,2023
+Alaska,All people,89.6,10.400000000000006,age,2023
+Alaska,Under 65 years,88.1,11.900000000000006,age,2023
+Alaska,Under 19 years,93.1,6.900000000000006,age,2023
+Alaska,19 - 64 years,85.9,14.099999999999994,age,2023
+Alaska,65 years and over,98.7,1.2999999999999972,age,2023
+Arizona,All people,90.1,9.900000000000006,age,2023
+Arizona,Under 65 years,87.9,12.099999999999994,age,2023
+Arizona,Under 19 years,91.4,8.599999999999994,age,2023
+Arizona,19 - 64 years,86.5,13.5,age,2023
+Arizona,65 years and over,99.1,0.9000000000000057,age,2023
+Arkansas,All people,91.1,8.900000000000006,age,2023
+Arkansas,Under 65 years,89.3,10.700000000000003,age,2023
+Arkansas,Under 19 years,93.3,6.700000000000003,age,2023
+Arkansas,19 - 64 years,87.6,12.400000000000006,age,2023
+Arkansas,65 years and over,99.4,0.5999999999999943,age,2023
+California,All people,93.6,6.400000000000006,age,2023
+California,Under 65 years,92.6,7.400000000000006,age,2023
+California,Under 19 years,96.8,3.200000000000003,age,2023
+California,19 - 64 years,91.0,9.0,age,2023
+California,65 years and over,98.9,1.0999999999999943,age,2023
+Colorado,All people,93.3,6.700000000000003,age,2023
+Colorado,Under 65 years,92.1,7.900000000000006,age,2023
+Colorado,Under 19 years,95.9,4.099999999999994,age,2023
+Colorado,19 - 64 years,90.8,9.200000000000003,age,2023
+Colorado,65 years and over,99.4,0.5999999999999943,age,2023
+Connecticut,All people,94.3,5.700000000000003,age,2023
+Connecticut,Under 65 years,93.1,6.900000000000006,age,2023
+Connecticut,Under 19 years,96.6,3.4000000000000057,age,2023
+Connecticut,19 - 64 years,91.9,8.099999999999994,age,2023
+Connecticut,65 years and over,99.2,0.7999999999999972,age,2023
+Delaware,All people,93.5,6.5,age,2023
+Delaware,Under 65 years,92.0,8.0,age,2023
+Delaware,Under 19 years,95.2,4.799999999999997,age,2023
+Delaware,19 - 64 years,90.7,9.299999999999997,age,2023
+Delaware,65 years and over,99.2,0.7999999999999972,age,2023
+District of Columbia,All people,97.3,2.700000000000003,age,2023
+District of Columbia,Under 65 years,97.0,3.0,age,2023
+District of Columbia,Under 19 years,98.7,1.2999999999999972,age,2023
+District of Columbia,19 - 64 years,96.5,3.5,age,2023
+District of Columbia,65 years and over,99.3,0.7000000000000028,age,2023
+Florida,All people,89.3,10.700000000000003,age,2023
+Florida,Under 65 years,86.6,13.400000000000006,age,2023
+Florida,Under 19 years,92.5,7.5,age,2023
+Florida,19 - 64 years,84.5,15.5,age,2023
+Florida,65 years and over,99.0,1.0,age,2023
+Georgia,All people,88.6,11.400000000000006,age,2023
+Georgia,Under 65 years,86.7,13.299999999999997,age,2023
+Georgia,Under 19 years,93.6,6.400000000000006,age,2023
+Georgia,19 - 64 years,83.9,16.099999999999994,age,2023
+Georgia,65 years and over,98.9,1.0999999999999943,age,2023
+Hawaii,All people,96.8,3.200000000000003,age,2023
+Hawaii,Under 65 years,96.0,4.0,age,2023
+Hawaii,Under 19 years,97.0,3.0,age,2023
+Hawaii,19 - 64 years,95.6,4.400000000000006,age,2023
+Hawaii,65 years and over,99.5,0.5,age,2023
+Idaho,All people,91.1,8.900000000000006,age,2023
+Idaho,Under 65 years,89.4,10.599999999999994,age,2023
+Idaho,Under 19 years,93.4,6.599999999999994,age,2023
+Idaho,19 - 64 years,87.6,12.400000000000006,age,2023
+Idaho,65 years and over,99.5,0.5,age,2023
+Illinois,All people,93.8,6.200000000000003,age,2023
+Illinois,Under 65 years,92.7,7.299999999999997,age,2023
+Illinois,Under 19 years,96.8,3.200000000000003,age,2023
+Illinois,19 - 64 years,91.2,8.799999999999997,age,2023
+Illinois,65 years and over,99.2,0.7999999999999972,age,2023
+Indiana,All people,93.1,6.900000000000006,age,2023
+Indiana,Under 65 years,91.8,8.200000000000003,age,2023
+Indiana,Under 19 years,94.1,5.900000000000006,age,2023
+Indiana,19 - 64 years,90.9,9.099999999999994,age,2023
+Indiana,65 years and over,99.6,0.4000000000000057,age,2023
+Iowa,All people,95.0,5.0,age,2023
+Iowa,Under 65 years,94.0,6.0,age,2023
+Iowa,Under 19 years,96.6,3.4000000000000057,age,2023
+Iowa,19 - 64 years,92.9,7.099999999999994,age,2023
+Iowa,65 years and over,99.6,0.4000000000000057,age,2023
+Kansas,All people,91.6,8.400000000000006,age,2023
+Kansas,Under 65 years,90.1,9.900000000000006,age,2023
+Kansas,Under 19 years,94.4,5.599999999999994,age,2023
+Kansas,19 - 64 years,88.1,11.900000000000006,age,2023
+Kansas,65 years and over,99.2,0.7999999999999972,age,2023
+Kentucky,All people,94.6,5.400000000000006,age,2023
+Kentucky,Under 65 years,93.5,6.5,age,2023
+Kentucky,Under 19 years,96.6,3.4000000000000057,age,2023
+Kentucky,19 - 64 years,92.3,7.700000000000003,age,2023
+Kentucky,65 years and over,99.5,0.5,age,2023
+Louisiana,All people,93.1,6.900000000000006,age,2023
+Louisiana,Under 65 years,91.8,8.200000000000003,age,2023
+Louisiana,Under 19 years,95.7,4.299999999999997,age,2023
+Louisiana,19 - 64 years,90.0,10.0,age,2023
+Louisiana,65 years and over,99.4,0.5999999999999943,age,2023
+Maine,All people,94.1,5.900000000000006,age,2023
+Maine,Under 65 years,92.5,7.5,age,2023
+Maine,Under 19 years,95.8,4.200000000000003,age,2023
+Maine,19 - 64 years,91.4,8.599999999999994,age,2023
+Maine,65 years and over,99.6,0.4000000000000057,age,2023
+Maryland,All people,93.7,6.299999999999997,age,2023
+Maryland,Under 65 years,92.6,7.400000000000006,age,2023
+Maryland,Under 19 years,95.3,4.700000000000003,age,2023
+Maryland,19 - 64 years,91.5,8.5,age,2023
+Maryland,65 years and over,99.2,0.7999999999999972,age,2023
+Massachusetts,All people,97.4,2.5999999999999943,age,2023
+Massachusetts,Under 65 years,97.0,3.0,age,2023
+Massachusetts,Under 19 years,98.5,1.5,age,2023
+Massachusetts,19 - 64 years,96.5,3.5,age,2023
+Massachusetts,65 years and over,99.3,0.7000000000000028,age,2023
+Michigan,All people,95.5,4.5,age,2023
+Michigan,Under 65 years,94.5,5.5,age,2023
+Michigan,Under 19 years,97.0,3.0,age,2023
+Michigan,19 - 64 years,93.6,6.400000000000006,age,2023
+Michigan,65 years and over,99.6,0.4000000000000057,age,2023
+Minnesota,All people,95.8,4.200000000000003,age,2023
+Minnesota,Under 65 years,95.0,5.0,age,2023
+Minnesota,Under 19 years,96.6,3.4000000000000057,age,2023
+Minnesota,19 - 64 years,94.3,5.700000000000003,age,2023
+Minnesota,65 years and over,99.7,0.29999999999999716,age,2023
+Mississippi,All people,89.7,10.299999999999997,age,2023
+Mississippi,Under 65 years,87.6,12.400000000000006,age,2023
+Mississippi,Under 19 years,94.0,6.0,age,2023
+Mississippi,19 - 64 years,84.8,15.200000000000003,age,2023
+Mississippi,65 years and over,99.4,0.5999999999999943,age,2023
+Missouri,All people,92.5,7.5,age,2023
+Missouri,Under 65 years,90.9,9.099999999999994,age,2023
+Missouri,Under 19 years,94.6,5.400000000000006,age,2023
+Missouri,19 - 64 years,89.4,10.599999999999994,age,2023
+Missouri,65 years and over,99.6,0.4000000000000057,age,2023
+Montana,All people,91.6,8.400000000000006,age,2023
+Montana,Under 65 years,89.5,10.5,age,2023
+Montana,Under 19 years,93.2,6.799999999999997,age,2023
+Montana,19 - 64 years,88.1,11.900000000000006,age,2023
+Montana,65 years and over,99.6,0.4000000000000057,age,2023
+Nebraska,All people,93.9,6.099999999999994,age,2023
+Nebraska,Under 65 years,92.8,7.200000000000003,age,2023
+Nebraska,Under 19 years,96.3,3.700000000000003,age,2023
+Nebraska,19 - 64 years,91.2,8.799999999999997,age,2023
+Nebraska,65 years and over,99.4,0.5999999999999943,age,2023
+Nevada,All people,89.2,10.799999999999997,age,2023
+Nevada,Under 65 years,87.2,12.799999999999997,age,2023
+Nevada,Under 19 years,92.1,7.900000000000006,age,2023
+Nevada,19 - 64 years,85.4,14.599999999999994,age,2023
+Nevada,65 years and over,98.5,1.5,age,2023
+New Hampshire,All people,95.3,4.700000000000003,age,2023
+New Hampshire,Under 65 years,94.1,5.900000000000006,age,2023
+New Hampshire,Under 19 years,96.6,3.4000000000000057,age,2023
+New Hampshire,19 - 64 years,93.3,6.700000000000003,age,2023
+New Hampshire,65 years and over,99.8,0.20000000000000284,age,2023
+New Jersey,All people,92.8,7.200000000000003,age,2023
+New Jersey,Under 65 years,91.5,8.5,age,2023
+New Jersey,Under 19 years,95.9,4.099999999999994,age,2023
+New Jersey,19 - 64 years,89.8,10.200000000000003,age,2023
+New Jersey,65 years and over,98.8,1.2000000000000028,age,2023
+New Mexico,All people,90.9,9.099999999999994,age,2023
+New Mexico,Under 65 years,88.9,11.099999999999994,age,2023
+New Mexico,Under 19 years,94.1,5.900000000000006,age,2023
+New Mexico,19 - 64 years,86.7,13.299999999999997,age,2023
+New Mexico,65 years and over,99.1,0.9000000000000057,age,2023
+New York,All people,95.2,4.799999999999997,age,2023
+New York,Under 65 years,94.2,5.799999999999997,age,2023
+New York,Under 19 years,97.2,2.799999999999997,age,2023
+New York,19 - 64 years,93.2,6.799999999999997,age,2023
+New York,65 years and over,99.2,0.7999999999999972,age,2023
+North Carolina,All people,90.8,9.200000000000003,age,2023
+North Carolina,Under 65 years,89.0,11.0,age,2023
+North Carolina,Under 19 years,94.8,5.200000000000003,age,2023
+North Carolina,19 - 64 years,86.7,13.299999999999997,age,2023
+North Carolina,65 years and over,99.2,0.7999999999999972,age,2023
+North Dakota,All people,95.5,4.5,age,2023
+North Dakota,Under 65 years,94.7,5.299999999999997,age,2023
+North Dakota,Under 19 years,96.4,3.5999999999999943,age,2023
+North Dakota,19 - 64 years,93.9,6.099999999999994,age,2023
+North Dakota,65 years and over,99.6,0.4000000000000057,age,2023
+Ohio,All people,93.9,6.099999999999994,age,2023
+Ohio,Under 65 years,92.6,7.400000000000006,age,2023
+Ohio,Under 19 years,95.1,4.900000000000006,age,2023
+Ohio,19 - 64 years,91.6,8.400000000000006,age,2023
+Ohio,65 years and over,99.5,0.5,age,2023
+Oklahoma,All people,88.6,11.400000000000006,age,2023
+Oklahoma,Under 65 years,86.5,13.5,age,2023
+Oklahoma,Under 19 years,92.5,7.5,age,2023
+Oklahoma,19 - 64 years,83.9,16.099999999999994,age,2023
+Oklahoma,65 years and over,99.3,0.7000000000000028,age,2023
+Oregon,All people,94.5,5.5,age,2023
+Oregon,Under 65 years,93.3,6.700000000000003,age,2023
+Oregon,Under 19 years,97.0,3.0,age,2023
+Oregon,19 - 64 years,92.0,8.0,age,2023
+Oregon,65 years and over,99.6,0.4000000000000057,age,2023
+Pennsylvania,All people,94.6,5.400000000000006,age,2023
+Pennsylvania,Under 65 years,93.4,6.599999999999994,age,2023
+Pennsylvania,Under 19 years,94.8,5.200000000000003,age,2023
+Pennsylvania,19 - 64 years,92.9,7.099999999999994,age,2023
+Pennsylvania,65 years and over,99.4,0.5999999999999943,age,2023
+Rhode Island,All people,95.5,4.5,age,2023
+Rhode Island,Under 65 years,94.6,5.400000000000006,age,2023
+Rhode Island,Under 19 years,96.7,3.299999999999997,age,2023
+Rhode Island,19 - 64 years,93.9,6.099999999999994,age,2023
+Rhode Island,65 years and over,99.2,0.7999999999999972,age,2023
+South Carolina,All people,90.9,9.099999999999994,age,2023
+South Carolina,Under 65 years,88.9,11.099999999999994,age,2023
+South Carolina,Under 19 years,93.9,6.099999999999994,age,2023
+South Carolina,19 - 64 years,86.8,13.200000000000003,age,2023
+South Carolina,65 years and over,99.5,0.5,age,2023
+South Dakota,All people,91.7,8.299999999999997,age,2023
+South Dakota,Under 65 years,90.0,10.0,age,2023
+South Dakota,Under 19 years,93.0,7.0,age,2023
+South Dakota,19 - 64 years,88.7,11.299999999999997,age,2023
+South Dakota,65 years and over,99.5,0.5,age,2023
+Tennessee,All people,90.7,9.299999999999997,age,2023
+Tennessee,Under 65 years,88.9,11.099999999999994,age,2023
+Tennessee,Under 19 years,94.4,5.599999999999994,age,2023
+Tennessee,19 - 64 years,86.7,13.299999999999997,age,2023
+Tennessee,65 years and over,99.4,0.5999999999999943,age,2023
+Texas,All people,83.6,16.400000000000006,age,2023
+Texas,Under 65 years,81.3,18.700000000000003,age,2023
+Texas,Under 19 years,88.1,11.900000000000006,age,2023
+Texas,19 - 64 years,78.3,21.700000000000003,age,2023
+Texas,65 years and over,98.1,1.9000000000000057,age,2023
+Utah,All people,92.0,8.0,age,2023
+Utah,Under 65 years,91.0,9.0,age,2023
+Utah,Under 19 years,93.4,6.599999999999994,age,2023
+Utah,19 - 64 years,89.9,10.099999999999994,age,2023
+Utah,65 years and over,99.4,0.5999999999999943,age,2023
+Vermont,All people,96.6,3.4000000000000057,age,2023
+Vermont,Under 65 years,95.7,4.299999999999997,age,2023
+Vermont,Under 19 years,97.9,2.0999999999999943,age,2023
+Vermont,19 - 64 years,95.0,5.0,age,2023
+Vermont,65 years and over,99.8,0.20000000000000284,age,2023
+Virginia,All people,93.6,6.400000000000006,age,2023
+Virginia,Under 65 years,92.4,7.599999999999994,age,2023
+Virginia,Under 19 years,95.4,4.599999999999994,age,2023
+Virginia,19 - 64 years,91.3,8.700000000000003,age,2023
+Virginia,65 years and over,99.1,0.9000000000000057,age,2023
+Washington,All people,93.7,6.299999999999997,age,2023
+Washington,Under 65 years,92.6,7.400000000000006,age,2023
+Washington,Under 19 years,96.7,3.299999999999997,age,2023
+Washington,19 - 64 years,91.1,8.900000000000006,age,2023
+Washington,65 years and over,99.3,0.7000000000000028,age,2023
+West Virginia,All people,94.1,5.900000000000006,age,2023
+West Virginia,Under 65 years,92.5,7.5,age,2023
+West Virginia,Under 19 years,97.0,3.0,age,2023
+West Virginia,19 - 64 years,90.9,9.099999999999994,age,2023
+West Virginia,65 years and over,99.8,0.20000000000000284,age,2023
+Wisconsin,All people,95.1,4.900000000000006,age,2023
+Wisconsin,Under 65 years,94.1,5.900000000000006,age,2023
+Wisconsin,Under 19 years,95.9,4.099999999999994,age,2023
+Wisconsin,19 - 64 years,93.4,6.599999999999994,age,2023
+Wisconsin,65 years and over,99.6,0.4000000000000057,age,2023
+Wyoming,All people,89.3,10.700000000000003,age,2023
+Wyoming,Under 65 years,86.9,13.099999999999994,age,2023
+Wyoming,Under 19 years,92.8,7.200000000000003,age,2023
+Wyoming,19 - 64 years,84.4,15.599999999999994,age,2023
+Wyoming,65 years and over,99.8,0.20000000000000284,age,2023
+Z Rounds to zero.,,,,age,2023
+,,,,income,2023
+,,,,income,2023
+,,,,income,2023
+United States,75220.0,0.3,99.7,income,2023
+Alabama,1166.0,1.3,98.7,income,2023
+Alaska,181.0,2.7,97.3,income,2023
+Arizona,1646.0,1.3,98.7,income,2023
+Arkansas,725.0,1.5,98.5,income,2023
+California,8774.0,0.5,99.5,income,2023
+Colorado,1256.0,1.2,98.8,income,2023
+Connecticut,754.0,1.6,98.4,income,2023
+Delaware,220.0,3.1,96.9,income,2023
+District of Columbia,127.0,5.1,94.9,income,2023
+Florida,4537.0,0.8,99.2,income,2023
+Georgia,2634.0,0.8,99.2,income,2023
+Hawaii,301.0,2.5,97.5,income,2023
+Idaho,486.0,1.7,98.3,income,2023
+Illinois,2803.0,0.8,99.2,income,2023
+Indiana,1628.0,1.2,98.8,income,2023
+Iowa,746.0,1.3,98.7,income,2023
+Kansas,708.0,1.3,98.7,income,2023
+Kentucky,1037.0,1.2,98.8,income,2023
+Louisiana,1104.0,1.8,98.2,income,2023
+Maine,252.0,2.6,97.4,income,2023
+Maryland,1401.0,1.1,98.9,income,2023
+Massachusetts,1392.0,1.0,99.0,income,2023
+Michigan,2186.0,0.8,99.2,income,2023
+Minnesota,1338.0,1.0,99.0,income,2023
+Mississippi,698.0,1.7,98.3,income,2023
+Missouri,1407.0,1.1,98.9,income,2023
+Montana,241.0,2.3,97.7,income,2023
+Nebraska,493.0,1.7,98.3,income,2023
+Nevada,711.0,1.8,98.2,income,2023
+New Hampshire,262.0,2.1,97.9,income,2023
+New Jersey,2089.0,0.8,99.2,income,2023
+New Mexico,471.0,2.1,97.9,income,2023
+New York,4054.0,0.8,99.2,income,2023
+North Carolina,2399.0,0.9,99.1,income,2023
+North Dakota,183.0,2.1,97.9,income,2023
+Ohio,2659.0,0.9,99.1,income,2023
+Oklahoma,1003.0,1.1,98.9,income,2023
+Oregon,857.0,1.3,98.7,income,2023
+Pennsylvania,2706.0,0.8,99.2,income,2023
+Rhode Island,211.0,3.2,96.8,income,2023
+South Carolina,1180.0,1.2,98.8,income,2023
+South Dakota,228.0,2.2,97.8,income,2023
+Tennessee,1607.0,1.2,98.8,income,2023
+Texas,7835.0,0.6,99.4,income,2023
+Utah,971.0,1.2,98.8,income,2023
+Vermont,118.0,2.9,97.1,income,2023
+Virginia,1942.0,1.0,99.0,income,2023
+Washington,1701.0,1.0,99.0,income,2023
+West Virginia,364.0,2.0,98.0,income,2023
+Wisconsin,1289.0,1.1,98.9,income,2023
+Wyoming,134.0,3.7,96.3,income,2023
+Z Rounds to zero.,,,,income,2023
+Data in this table represents children under 19 in the poverty universe. Percentages are based on the total children under 19. For more information on poverty and the poverty universe see: <https://www.census.gov/topics/income-poverty/poverty/guidance/poverty-measures.html>.,,,,income,2023
+,,,,race,2023
+,Number,,,race,2023
+United States,27070,0.2,99.8,race,2023
+Alabama,502,0.8,99.2,race,2023
+Alaska,56,2.1,97.9,race,2023
+Arizona,619,1.4,98.6,race,2023
+Arkansas,339,1.6,98.4,race,2023
+California,3052,0.3,99.7,race,2023
+Colorado,335,1.1,98.9,race,2023
+Connecticut,221,1.4,98.6,race,2023
+Delaware,73,3.7,96.3,race,2023
+District of Columbia,34,1.2,98.8,race,2023
+Florida,1728,0.7,99.3,race,2023
+Georgia,1037,0.7,99.3,race,2023
+Hawaii,82,1.6,98.4,race,2023
+Idaho,173,1.4,98.6,race,2023
+Illinois,910,0.5,99.5,race,2023
+Indiana,610,1.3,98.7,race,2023
+Iowa,246,1.2,98.8,race,2023
+Kansas,236,1.3,98.7,race,2023
+Kentucky,456,0.9,99.1,race,2023
+Louisiana,516,1.0,99.0,race,2023
+Maine,80,1.4,98.6,race,2023
+Maryland,369,1.5,98.5,race,2023
+Massachusetts,364,0.8,99.2,race,2023
+Michigan,818,0.6,99.4,race,2023
+Minnesota,361,1.1,98.9,race,2023
+Mississippi,340,1.4,98.6,race,2023
+Missouri,513,1.1,98.9,race,2023
+Montana,78,2.6,97.4,race,2023
+Nebraska,156,1.6,98.4,race,2023
+Nevada,290,1.9,98.1,race,2023
+New Hampshire,52,2.6,97.4,race,2023
+New Jersey,585,0.9,99.1,race,2023
+New Mexico,236,1.3,98.7,race,2023
+New York,1505,0.4,99.6,race,2023
+North Carolina,940,0.8,99.2,race,2023
+North Dakota,41,2.6,97.4,race,2023
+Ohio,1015,0.8,99.2,race,2023
+Oklahoma,446,0.7,99.3,race,2023
+Oregon,278,0.9,99.1,race,2023
+Pennsylvania,950,1.0,99.0,race,2023
+Rhode Island,69,2.8,97.2,race,2023
+South Carolina,491,1.0,99.0,race,2023
+South Dakota,87,2.9,97.1,race,2023
+Tennessee,652,1.1,98.9,race,2023
+Texas,3161,0.7,99.3,race,2023
+Utah,258,1.6,98.4,race,2023
+Vermont,29,1.2,98.8,race,2023
+Virginia,582,1.0,99.0,race,2023
+Washington,490,1.0,99.0,race,2023
+West Virginia,155,0.9,99.1,race,2023
+Wisconsin,407,0.9,99.1,race,2023
+Wyoming,48,3.0,97.0,race,2023
+Z Rounds to zero.,,,,race,2023
+Data in this table represents children under 19 in the poverty universe. For more information on poverty and the poverty universe see: <https://www.census.gov/topics/income-poverty/poverty/guidance/poverty-measures.html>.,,,,race,2023
+Florida,10.7,,,poverty,2023
+Wyoming,10.7,,,poverty,2023
+Alaska,10.4,,,poverty,2023
+Mississippi,10.3,,,poverty,2023
+Arizona,9.9,,,poverty,2023
+Tennessee,9.3,,,poverty,2023
+North Carolina,9.2,,,poverty,2023
+South Carolina,9.1,,,poverty,2023
+New Mexico,9.1,,,poverty,2023
+Arkansas,8.9,,,poverty,2023
+Idaho,8.9,,,poverty,2023
+Alabama,8.5,,,poverty,2023
+Montana,8.4,,,poverty,2023
+Kansas,8.4,,,poverty,2023
+South Dakota,8.3,,,poverty,2023
+Utah,8.0,,,poverty,2023
+United States,7.9,,,poverty,2023
+Missouri,7.5,,,poverty,2023
+New Jersey,7.2,,,poverty,2023
+Louisiana,6.9,,,poverty,2023
+Indiana,6.9,,,poverty,2023
+Colorado,6.7,,,poverty,2023
+Delaware,6.5,,,poverty,2023
+Virginia,6.4,,,poverty,2023
+California,6.4,,,poverty,2023
+Maryland,6.3,,,poverty,2023
+Washington,6.3,,,poverty,2023
+Illinois,6.2,,,poverty,2023
+Ohio,6.1,,,poverty,2023
+Nebraska,6.1,,,poverty,2023
+West Virginia,5.9,,,poverty,2023
+Maine,5.9,,,poverty,2023
+Connecticut,5.7,,,poverty,2023
+Oregon,5.5,,,poverty,2023
+Kentucky,5.4,,,poverty,2023
+Pennsylvania,5.4,,,poverty,2023
+Iowa,5.0,,,poverty,2023
+Wisconsin,4.9,,,poverty,2023
+New York,4.8,,,poverty,2023
+New Hampshire,4.7,,,poverty,2023
+Michigan,4.5,,,poverty,2023
+North Dakota,4.5,,,poverty,2023
+Rhode Island,4.5,,,poverty,2023
+Minnesota,4.2,,,poverty,2023
+Vermont,3.4,,,poverty,2023
+Hawaii,3.2,,,poverty,2023
+District of Columbia,2.7,,,poverty,2023
+Massachusetts,2.6,,,poverty,2023
+,,,,poverty,2023
+- The state listed on the left has a higher uninsured rate than the state listed at the top and the difference is statistically different from zero at the 90 percent confidence level.,,,,poverty,2023
++ The state listed on the left has a lower uninsured rate than the state listed at the top and the difference is statistically different from zero at the 90 percent confidence level.,,,,poverty,2023
+A blank indicates that the difference in the two rates is not statistically different from zero at the 90 percent confidence level.,,,,poverty,2023
+"1 A margin of error (MOE) is a measure of an estimate's variability. The larger the MOE in relation to the size of the estimate, the less reliable the estimate. This number, when added to and subtracted from the estimate, forms the 90 percent confidence interval. MOEs shown in this table are based on standard errors calculated using replicate weights.",,,,poverty,2023
