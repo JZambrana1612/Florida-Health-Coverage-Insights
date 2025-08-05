@@ -34,7 +34,7 @@ The Tableau dashboard will include:
 
 ## Actionable Recommendations
 The cleaned Florida datasets reveal clear patterns that inform outreach and product strategy. Key recommendations are:
-
+![Uninsured Rate by County](images/uninsured_rate_by_county.png)
 - **Focus outreach on counties with both high uninsured percentages and large uninsured populations.**  
 In our sample, counties such as Manatee, Seminole, Franklin, Glades, Palm Beach and Pasco exhibit the highest uninsured rates or the biggest increases since 2019. Targeting these areas can maximize enrollment impact.
 
@@ -43,13 +43,14 @@ Integrate HI05, HI10, HI11 and HI12 tables to fine‑tune model features for age
 
 - **Align Medicare expansion strategies with underserved regions.**  
 Cross‑analysis of SAHIE and HI13/HI14 data highlights counties where dual‑eligible share is low relative to the uninsured burden; these counties are candidates for new Medicare Advantage plans or dual‑eligible outreach.
-
+![Low-Income Insurance Eligibility by County](images/low-income_insurance_eligibility_by_county)
 - **Build messaging and LLM prompt templates that reflect demographic risk.**  
 Use coverage by poverty and age to tailor tone and language for higher engagement, especially among low‑income adults and seniors.
-
+![Distribution by Federal Poverty Level (2013)](images/distribution_by_FPL_2013)
+![Distribution by Federal Poverty Level (2014)](images/distribution_by_FPL_2014) 
 - **Monitor post‑pandemic insurance trends.**  
 Track counties where uninsured rates remain elevated or are rising despite statewide improvements. Seminole County, for example, saw an increase of more than 18 percentage points between 2019 and 2022, signalling persistent gaps.
-
+![Uninsured Rate Trends](images/uninsured_rate_trends)
 ## Deep Dive: Analytical Approach
 
 ### Dataset Overview
@@ -95,7 +96,11 @@ health-insurance-insights/
 │   │   ├── sahie_2019_sampled_FL.csv
 │   │   ├── sahie_2020_sampled_FL.csv
 │   │   ├── sahie_2021_sampled_FL.csv
-│   │   └── sahie_2022_sampled_FL.csv
+│   │   ├── sahie_2022_sampled_FL.csv
+│   │   ├── sahie_2019_2022_FL_combined.csv
+│   │   ├── combined_acs_insurance_2022.csv
+│   │   ├── hi13_cleaned.csv
+│   │   └── hi14_cms_cleaned.csv
 │   ├── raw/
 │   │   ├── hi05_acs.xlsx
 │   │   ├── hi10_acs.xlsx
@@ -115,8 +120,14 @@ health-insurance-insights/
 │   ├── q4_demographic_gaps.sql
 │   ├── q5_priority_index.sql
 ├── images/
-│   └── dashboard_preview.png
+│   ├── dashboard_preview.png
+│   ├── distribution_by_FPL_2013.png
+│   ├── distribution_by_FPL_2014.png
+│   ├── low-income_insurance_eligibility_by_county.png
+│   ├── uninsured_rate_by_county.png
+│   └── uninsured_rate_trends.png
 ├── README.md
+├── LICENSE
 ```
 
 ## Tools Used
